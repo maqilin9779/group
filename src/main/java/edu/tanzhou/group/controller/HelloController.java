@@ -12,7 +12,7 @@ public class HelloController {
 		System.out.println("spring boot is access");
 		System.out.println("this is maqilin2015第一次提交");
 		System.out.println("this is maqilin9779base 改动");
-		System.out.println("this is maqilin2015第二次提交");
+		System.out.println("this is maqilin2015第二次提交啊");
 		return "spring boot is access";
 	}
 	
