@@ -10,18 +10,18 @@ public class HelloController {
 	@RequestMapping("/")
 	public String index(){
 		System.out.println("spring boot is access");
-		System.out.println();
+		System.out.println("this is maqilin2015第一次提交");
 		return "spring boot is access";
 	}
 	
 	/**
-	 * 给app提供的接口
+	 * 缁檃pp鎻愪緵鐨勬帴鍙�
 	 * @return
 	 */
 	@RequestMapping(value="api/one/list",method={RequestMethod.GET})
 	public String sayHello(){
 		
-		System.out.println("你好tomcat2");
-		return "你好tomcat2";
+		System.out.println("浣犲ソtomcat2");
+		return "浣犲ソtomcat2";
 	}
 }
